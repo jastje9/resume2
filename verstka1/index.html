@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>портфолио</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        </style>
+</head>
+<body>
+    <img src="img/me.jpg" width="200">
+                                <h1><strong>Дружинин Никита</strong></h1> <!--- NAME-->
+    <p>
+        Я студент <strong>НТУ ХПИ</strong> и люблю заниматься <em>программированием и играть в комп. игры</em> <!--ABOUT ME-->
+    </p>
+    <p>
+        <strong>Мои контакты:</strong><!---CONTACTS-->
+    </p>
+    <p>
+        <a href="https://www.instagram.com/_n.nervous/">Instagram</a> |
+        <a href="https://t.me/Jastje9">Telegram</a>
+    </p>
+
+
+
+   <H2>Мои хобби</H2>
+   <ol>
+         <li>Игра на гитаре</li>                   <!---MY HOBBIES-->
+         <li>Играть в комп. игры</li>
+         <li>Программрование</li>
+         <li>Путешествовать</li>
+   </ol>
+
+   <h2> <strong>Опыт работы</strong></h2> <!---WORK-YEARS-->
+
+
+   <table>
+    <thead>
+      <tr>
+        <td><strong>Название</strong></td>
+        <td><strong>Должность</strong></td>
+        <td><strong>Год</strong></td>
+      </tr>
+</thead>
+
+
+<tbody>
+    <tr>
+        <td>КП "Затишне місто"</td>
+        <td>Садовник</td>
+        <td>2019, 2020</td>
+      </tr>
+</tbody>
+</table>
+<br>
+<h2>Связаться со мной:</h2>
+<form action="mail.php" method="POST">
+    <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="name" id="name" class="form-group" name="user_name" placeholder="Введите имя">
+        
+    
+    </div>
+    <div class="form-group">
+        <label for="email">Ваша э-почта:</label>
+        <input type="email" id="email" class="form-group" name="user_mail" placeholder="Введите почту">
+    </div>
+    <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <br>
+        <textarea name="message" id="message" class="form-group" cols="20" rows="5"></textarea placeholder="Введите сообщение">
+    </div>
+        <input type="submit" class="btn btn-primary" value="Отправить сообщение">
+    
+</form>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
